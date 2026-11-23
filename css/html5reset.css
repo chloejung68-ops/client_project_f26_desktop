@@ -1,0 +1,6 @@
+/* Normalizes spacing while preserving semantic list markers and keyboard focus. */
+*, *::before, *::after { box-sizing: border-box; }
+body, h1, h2, h3, p, ul, ol, figure { margin: 0; }
+img { display: block; max-width: 100%; height: auto; }
+button, input, select, textarea { font: inherit; }
+address { font-style: normal; }
